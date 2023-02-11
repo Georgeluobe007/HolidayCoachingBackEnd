@@ -3,7 +3,7 @@ const app  = express();
 const cors = require("cors");
 
 const dotenv = require("dotenv")
-dotenv.config({path: './config.env'})
+dotenv.config({path: './.env.development'})
 console.log(process.env);
      app.use(cors());
 
